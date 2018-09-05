@@ -1,4 +1,4 @@
-# art-template
+# sn-art-template
 
 [![NPM Version](https://img.shields.io/npm/v/art-template.svg)](https://npmjs.org/package/art-template)
 [![NPM Downloads](http://img.shields.io/npm/dm/art-template.svg)](https://npmjs.org/package/art-template)
@@ -8,19 +8,10 @@
 
 [English document](https://aui.github.io/art-template/) | [中文文档](https://aui.github.io/art-template/zh-cn/index.html)
 
-art-template is a simple and superfast templating engine that optimizes template rendering speed by scope pre-declared technique, hence achieving runtime performance which is close to the limits of JavaScript. At the same time, it supports both NodeJS and browser. [speed test online](https://aui.github.io/art-template/rendering-test/).
 
 art-template 是一个简约、超快的模板引擎。它采用作用域预声明的技术来优化模板渲染速度，从而获得接近 JavaScript 极限的运行性能，并且同时支持 NodeJS 和浏览器。[在线速度测试](https://aui.github.io/art-template/rendering-test/)。
 
 [![chart](https://aui.github.io/art-template/images/chart@2x.png)](https://aui.github.io/art-template/rendering-test/)
-
-## Feature
-
-1. performance is close to the JavaScript rendering limits
-2. debugging friendly. Syntax errors or runtime errors will be positioned accurately at which line of template. Support setting breakpoint in templating files (Webpack Loader)
-3. support Express, Koa, Webpack
-4. support template inheritance and sub template
-5. browser version is only 6KB
 
 ## 特性
 
@@ -30,8 +21,7 @@ art-template 是一个简约、超快的模板引擎。它采用作用域预声�
 6. 支持模板继承与子模板
 7. 浏览器版本仅 6KB 大小
 
+### 修改
+1. 添加handlebars 依赖
+2. 可以通过过在页面中 include hbs文件， 来引入handlebars 模板
 -----------------
-
-[捐助我](https://cloud.githubusercontent.com/assets/1791748/25561320/09c9d6d0-2d9c-11e7-8689-1109f3f88f41.png)(微信支付)
-
-[\[AD\] 前端招聘：在海边写代码](https://juejin.im/post/5a2651d06fb9a0451c3a40ad)
