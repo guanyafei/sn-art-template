@@ -1,0 +1,13 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>artTemplate-ssr</title>
+</head>
+
+<body>
+  {{include './title'}}
+  {{include './head.hbs'}}
+</body>
+
+</html>
