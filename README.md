@@ -22,6 +22,10 @@ art-template 是一个简约、超快的模板引擎。它采用作用域预声�
 7. 浏览器版本仅 6KB 大小
 
 ### 修改
+#### 1.0.1
+1. 添加hbs 的helper 处理，现在可以在options中 ，通过hbsHelper 的方式传入helper
+
+#### 1.0.0
 1. 添加handlebars 依赖
 2. 可以通过过在页面中 include hbs文件， 来引入handlebars 模板
 -----------------
