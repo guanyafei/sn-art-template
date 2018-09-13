@@ -22,6 +22,10 @@ art-template 是一个简约、超快的模板引擎。它采用作用域预声�
 7. 浏览器版本仅 6KB 大小
 
 ### 修改
+#### 1.0.2
+1. {{include '../components/art/hot_news' pageoption}} 
+pageoption = {ispage:true}
+通过传入 表示， 来判断是否解析include 引入的模板，如果传入，则include模板不解析，整体作为string被返回
 #### 1.0.1
 1. 添加hbs 的helper 处理，现在可以在options中 ，通过hbsHelper 的方式传入helper
 
