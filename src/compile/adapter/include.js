@@ -16,12 +16,11 @@ var include = function include(filename, data, blocks, options) {
         var filename = options.resolveFilename(filename, options);
         //TODO: 判断文件存在， 判断handlebars的入参
         var tpl = fs.readFileSync(filename, 'utf8');
-        console.log(tpl)
         return tpl;
     }
+    
     var ext = path.extname(filename).toLocaleLowerCase();
     if (ext === ".hbs") {
-
         var filename = options.resolveFilename(filename, options);
         //TODO: 判断文件存在， 判断handlebars的入参
         var tpl = fs.readFileSync(filename, 'utf8');
