@@ -1,6 +1,6 @@
 {
   "name": "sn-art-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "在art template 中可以通过include 方式使用handlebars 模板。",
   "main": "index.js",
   "scripts": {
